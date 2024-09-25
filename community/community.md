@@ -10,6 +10,7 @@ Endpoint = `api/v1/community/`
 Purpose: This endpoint create a new community information to the database
 
 Flowchat: 
+![image](./community_create.png)
 
 Request:
 ```json
@@ -51,6 +52,7 @@ Endpoint = `api/v1/community/{community_id}`
 Purpose: This endpoint Read a community details from database by using community_id
 
 Flowchat: 
+![image](./community_read.png)
 
 Path Parameter:
 
@@ -104,6 +106,7 @@ Endpoint = `api/v1/community`
 Purpose: This endpoint Read all community details from database.
 
 Flowchat: 
+![image](./community_readall.png)
 
 Path Parameter:
 
@@ -160,6 +163,7 @@ Purpose: This endpoint update the community information by using community_id
 
 
 Flowchat: 
+![image](./community_update.png)
 
 Path Parameter:
 
@@ -229,6 +233,7 @@ Endpoint = `api/v1/community/{community_id}`
 Purpose: This endpoint update the subscription status by using community_id
 
 Flowchat: 
+![image](./community_status.png)
 
 Path Parameter:
 
@@ -264,6 +269,7 @@ Endpoint = `api/v1/community/{community_id}`
 Purpose: This endpoint delete the community from database by using community_id.
 
 Flowchat: 
+![image](./community_delete.png)
 
 Path Parameter:
 
@@ -278,5 +284,5 @@ None
 Response:
 
 ```json
-    NULL
+NULL
 ```
