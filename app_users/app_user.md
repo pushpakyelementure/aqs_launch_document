@@ -10,6 +10,9 @@ Endpoint = `api/v1/app_users/{community_id}`
 Purpose: This endpoint create a new app user by accepting details like name, email, mobile, profile_picture and birth_date using a particular community_id
 Flowchat: 
 
+![image](./appuser_create.png)
+
+
 Path Parameter:
 
     community_id: The UUID of the particular community to create appuser details.
@@ -38,6 +41,7 @@ API: GET method
 Endpoint = `api/v1/admin/{user_id}`
 Purpose: This endpoint Read a admin user by using user_id and read a particular admin user details from database.
 Flowchat: 
+![image](./appuser_read.png)
 
 Path Parameter:
 
@@ -89,6 +93,7 @@ Endpoint = `api/v1/app_users/{community_id}`
 
 Purpose: This endpoint Read all app users details from database using community_id.
 Flowchat: 
+![image](./appuser_readall.png)
 
 Path Parameter:
     community_id: The UUID of the particular community to read appuser data.
@@ -141,6 +146,7 @@ Endpoint = `api/v1/app_users/{community_id}{user_id}`
 
 Purpose: This endpoint update the app user information by using community_id and user_id
 Flowchat: 
+![image](./appuser_update.png)
 
 Request:
 ```json
@@ -175,6 +181,7 @@ Endpoint = `api/v1/app_users/{community_id}{user_id}`
 
 Purpose: This endpoint delete the app user from database by using community_id and user_id 
 Flowchat: 
+![image](./appuser_delete.png)
 
 Response:
 
