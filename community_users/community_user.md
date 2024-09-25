@@ -15,6 +15,8 @@ Path Parameter:
 
 Flowchat: 
 
+![image](./comm_user_create.png)
+
 Request:
 ```json
     {
@@ -47,6 +49,8 @@ Endpoint = `api/v1/community_users/{community_id}/{user_id}`
 Purpose: This endpoint Read a community user details from database by using community_id and user_id.
 
 Flowchat: 
+![image](./comm_user_read.png)
+
 
 Path Parameter:
 
@@ -83,6 +87,7 @@ Endpoint = `api/v1/community_users/{community_id}`
 Purpose: This endpoint Read all community users details from database.
 
 Flowchat: 
+![image](./comm_user_readall.png)
 
 Path Parameter:
 
@@ -115,6 +120,7 @@ Purpose: This endpoint update the community user information by using community_
 
 
 Flowchat: 
+![image](./comm_user_update.png)
 
 Path Parameter:
 
@@ -158,6 +164,7 @@ Endpoint = `api/v1/community_users/{community_id}/{user_id}`
 Purpose: This endpoint update the community user particular attribute by using community_id and user_id.
 
 Flowchat: 
+![image](./comm_user_status.png)
 
 Path Parameter:
 
@@ -196,6 +203,7 @@ Endpoint = `api/v1/community_users/{community_id}/{user_id}`
 Purpose: This endpoint delete the community user from database by using user_id.
 
 Flowchat: 
+![image](./comm_user_delete.png)
 
 Path Parameter:
 
@@ -211,5 +219,5 @@ None
 Response:
 
 ```json
-    NULL
+NULL
 ```
