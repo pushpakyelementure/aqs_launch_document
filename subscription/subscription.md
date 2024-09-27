@@ -9,6 +9,7 @@ Endpoint = `api/v1/subscription/{community_id}`
 Purpose: This endpoint create a new invoice for the particular community
 
 Flowchat: 
+![image](./sub_invoice_create.png)
 
 Path Parameter:
 
@@ -46,6 +47,7 @@ Endpoint = `api/v1/subscription/{community_id}`
 Purpose: This endpoint Read a community invoice details from database by using community_id
 
 Flowchat: 
+![image](./sub_invoice_read.png)
 
 Path Parameter:
 
@@ -82,6 +84,7 @@ Endpoint = `api/v1/subscription/{community_id}/{subscription_invoice_id}`
 Purpose: This endpoint generate invoice for community from database.
 
 Flowchat: 
+![image](./sub_generate_invoice.png)
 
 Path Parameter:
 
@@ -109,8 +112,8 @@ Endpoint = `api/v1/subscription/{community_id}/{subscription_invoice_id}`
 
 Purpose: This endpoint update the invoice information by using community_id and subscription_invoice_id
 
-
 Flowchat: 
+![image](./sub_invoice_update.png)
 
 Path Parameter:
 
@@ -145,6 +148,7 @@ Endpoint = `api/v1/subscription/{community_id}/{subscription_invoice_id}/downloa
 Purpose: This endpoint download the invoice by using community_id and subscription_invoice_id.
 
 Flowchat: 
+![image](./sub_invoice_download.png)
 
 Path Parameter:
 
@@ -160,7 +164,7 @@ None
 Response:
 
 ```json
-    {
-        "invoice_url": "https://example.com/"
-    }
+{
+    "invoice_url": "https://example.com/"
+}
 ```
