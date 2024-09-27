@@ -9,7 +9,7 @@ Endpoint = `api/v1/dwelling/community/{community_id}`
 Purpose: This endpoint create a new dwelling information to the database
 
 Flowchat: 
-![image](./admin_flowchat/admin_create.png)
+![image](./dwelling_create.png)
 
 Request:
 ```json
@@ -37,7 +37,9 @@ Endpoint = `api/v1/dwelling/{dwelling_id}`
 
 Purpose: This endpoint Read a dwelling details from database by using dwelling_id
 
-Flowchat: 
+Flowchat:
+ ![image](./dwelling_read.png)
+
 
 Path Parameter:
 
@@ -94,6 +96,7 @@ Endpoint = `api/v1/dwelling/community/{community_id}`
 Purpose: This endpoint Read all dwelling details from database.
 
 Flowchat: 
+ ![image](./dwelling_readall.png)
 
 Path Parameter:
 
@@ -142,8 +145,8 @@ Endpoint = `api/v1/dwelling/{dwelling_id}}`
 
 Purpose: This endpoint update the dwelling information by using dwelling_id
 
-
 Flowchat: 
+ ![image](./dwelling_update.png)
 
 Path Parameter:
 
@@ -205,10 +208,10 @@ Endpoint = `api/v1/dwelling/{dwelling_id}`
 Purpose: This endpoint delete the dwelling from database by using dwelling_id.
 
 Flowchat: 
+ ![image](./dwelling_delete.png)
 
 Path Parameter:
-
-    dwelling_id: The UUID of the particular dwelling to delete dwelling data.
+dwelling_id: The UUID of the particular dwelling to delete dwelling data.
 
 Request:
 
@@ -219,5 +222,5 @@ None
 Response:
 
 ```json
-    NULL
+NULL
 ```
