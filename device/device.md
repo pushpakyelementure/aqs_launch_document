@@ -10,6 +10,7 @@ Endpoint = `api/v1/device/`
 Purpose: This endpoint create a new device information to the database
 
 Flowchat: 
+![image](./device_create.png)
 
 Query Parameter:
 
@@ -46,6 +47,7 @@ Endpoint = `api/v1/device/dwell/{dwelling_id}`
 Purpose: This endpoint Read a dwelling details from database by using dwelling_id
 
 Flowchat: 
+![image](./device_read.png)
 
 Path Parameter:
 
@@ -83,6 +85,7 @@ Endpoint = `api/v1/device/{dwelling_id}/{device_id}`
 Purpose: This endpoint update the device information by using dwelling_id and device_id
 
 Flowchat: 
+![image](./device_update.png)
 
 Path Parameter:
 
@@ -121,6 +124,7 @@ Endpoint = `api/v1/device/{dwelling_id}/{device_id}`
 Purpose: This endpoint delete the device from database by using dwelling_id and device_id.
 
 Flowchat: 
+![image](./device_delete.png)
 
 Path Parameter:
 
@@ -136,5 +140,5 @@ None
 Response:
 
 ```json
-    NULL
+NULL
 ```
