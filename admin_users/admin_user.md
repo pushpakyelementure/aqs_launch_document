@@ -2,7 +2,7 @@ ADMIN USERS APIs
 
 The Admin user functionality in the installation application using HTTP methods in FastAPI, our documentation should outline the purpose, endpoints, request/response structures, and expected behavior for each action (Create, Retrieve, Update, Delete).
 
-1.  ADD ADMIN USER
+1. ADD ADMIN USER
 
 API: POST method
 
@@ -14,6 +14,7 @@ Flowchat:
 ![image](./admin_create.png)
 
 Request:
+
 ```json
     {
         "name": "string",
@@ -25,7 +26,9 @@ Request:
         "role": "admin"
     }
 ```
+
 Response:
+
 ```json
     {
         "user_id": "string",
@@ -55,6 +58,7 @@ None
 ```
 
 Response:
+
 ```json
     {
         "user_id": "string",
@@ -78,6 +82,7 @@ Flowchat:
 ![image](./admin_readall.png)
 
 Response:
+
 ```json
     [
         {
@@ -103,6 +108,7 @@ Flowchat:
 ![image](./admin_update.png)
 
 Request:
+
 ```json
     {
         "name": "string",
@@ -111,7 +117,9 @@ Request:
         "role": "admin"
     }
 ```
+
 Response:
+
 ```json
     {
         "user_id": "string",
@@ -137,18 +145,22 @@ Flowchat:
 ![image](./admin_role.png)
 
 Request:
+
 ```json
     {
         "role": "admin"
     }
 ```
+
 Response:
+
 ```json
     {
         "user_id": "string",
         "details": "string"
     }
 ```
+
 6. DELETE ADMIN USER
 
 API: DELETE method
@@ -168,6 +180,7 @@ None
 ```
 
 Response:
+
 ```json
 NULL
 ```

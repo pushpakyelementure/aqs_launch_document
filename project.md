@@ -1,4 +1,4 @@
-Aquesa Launch/install application
+AQUESA APPLICATION
 
 Admin/Support Interface for Dwellings and Communities
 
